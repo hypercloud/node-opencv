@@ -1,4 +1,4 @@
-var cv = require('cv');
+var cv = require('opencv');
 
 cv.readImage("./examples/mona.png", function(err, im){
   im.detectObject(cv.FACE_CASCADE, {}, function(err, faces){
