@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "opencv": "^3.0.1"
+    "opencv": "^3.0.0"
   },
   "scripts": {
     "start": "node index.js",
